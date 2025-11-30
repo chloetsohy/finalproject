@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consent</title>
+
+    <!--Meta Description for SEO-->
+    <meta name="description" content="Surveillance Capitalism">
+
+    <!--Open graph from social sharing-->
+    <meta property="og:title" content="Surveillance Capitalism">
+    <meta property="og:description" content="Surveillance Capitalism">
+
+    <!--Author and Copyright-->
+    <meta name="author" content="Chloe">
+    <meta name="copyright" content="Chloe, Student Project, 2025">
+
+    <title>Surveillance Capitalism</title>
+
+    <!--External Stylesheet-->
+    <link rel="Stylesheet" href="default.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
+    <!--FONT 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300..700&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
+    <!--Link to the social media icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<header>
+    <div id="wrapper">
+        <!--Navigation-->
+
+        <nav>
+
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="LOGO" width="100px" height="50px"></a>
+            </div>
+
+            <div class="menu1">
+                <a href="index.html" class="menuI">Home</a>
+                <a href="definition.html" class="menuI">Definition</a>
+                <a href="characteristics.html" class="menuI">Characteristics</a>
+                <a href="manipulation.html" class="menuI">Manipulation</a>
+                <a href="consent.html" class="menuI">Consent</a>
+                <a href="impact.html" class="menuI">Impact</a>
+                <a href="examples.html" class="menuI">Examples</a>
+                <a href="solution.html" class="menuI">Solution</a>
+
+
+            </div>
+
+
+            <!--Hamburger menu button for mobile version-->
+            <div class="hamburger-menu">
+                <button>
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+
+        </nav>
+</header>
+
+<body>
+
+    <div class="tiktoktext">
+
+        <div class="tiktoktitle">
+
+
+            <a href="examples.html"><img src="images/back.png" alt="LOGO" width="25px" height="35px"></a>
+
+            <h1>Tiktok</h1>
+
+        </div>
+        <div class="tiktoktext2">
+
+            <figure class="tiktokpic">
+                <img src="images/tiktokadanger.jpg">
+            </figure>
+
+            <div class="tiktokp">
+                <p>Tiktok, a social media platform dominating recent years, has shown algorithmic manipulation that
+                    influences the way consumers interact and view content on it. With a record of tracking user
+                    communication and interaction, it pushes personalized content onto that individual’s feed,
+                    specifically through the ‘For you’ page. Instead of randomized short clips, it is engineered to be a
+                    stream of content that exploits the individual preferences, resulting in the possible addiction of
+                    doomscrolling through the addictive and customized videos. With the platform’s presence skyrocketing
+                    these past years, it leaves consumers vulnerable to its dopamine focused content, revealing the
+                    persistent lack of awareness gap.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section>
+        <article>
+
+        </article>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="social">
+
+            <!--Social Media Icons-->
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+
+        </div>
+        <div class="credit"> <small><em>This Website was created as part of a school project. All content and
+                    design are copyright Chloe,
+                    Student, 2025.</em></small> </div>
+    </footer>
+
+    </div>
+
+    <!--Script for the hamburger menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

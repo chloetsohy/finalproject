@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!--Meta Description for SEO-->
+    <meta name="description" content="Surveillance Capitalism">
+
+    <!--Open graph from social sharing-->
+    <meta property="og:title" content="Surveillance Capitalism">
+    <meta property="og:description" content="Surveillance Capitalism">
+
+    <!--Author and Copyright-->
+    <meta name="author" content="Chloe">
+    <meta name="copyright" content="Chloe, Student Project, 2025">
+
+    <title>Surveillance Capitalism</title>
+
+    <!--External Stylesheet-->
+    <link rel="Stylesheet" href="default.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
+    <!--FONT 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300..700&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
+    <!--Link to the social media icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<header>
+    <div id="wrapper">
+        <!--Navigation-->
+
+        <nav>
+
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="LOGO" width="100px" height="50px"></a>
+            </div>
+
+
+            <div class="menu1">
+                <a href="index.html" class="menuI">Home</a>
+                <a href="definition.html" class="menuI">Definition</a>
+                <a href="characteristics.html" class="menuI">Characteristics</a>
+                <a href="manipulation.html" class="menuI">Manipulation</a>
+                <a href="consent.html" class="menuI">Consent</a>
+                <a href="impact.html" class="menuI">Impact</a>
+                <a href="examples.html" class="menuI">Examples</a>
+                <a href="solution.html" class="menuI">Solution</a>
+
+
+            </div>
+
+
+            <!--Hamburger menu button for mobile version-->
+            <div class="hamburger-menu">
+                <button>
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+
+        </nav>
+</header>
+
+
+<body class="background">
+
+    <div class="index-wrap">
+
+        <div class="phrase1">
+            <p>During lunch, you were casually telling your friend how you really want the new edition headphones.</p>
+        </div>
+
+        <div class="phrase2">
+            <p>And an ad for THAT specific headphones just pops up on your algorithm 1 hour later while
+                you were doomscrolling...</p>
+        </div>
+
+        <div class="phrase3">
+            <p>Or perhaps you were browsing at a sneaker store - phone in pocket the whole time,</p>
+        </div>
+
+        <div class="phrase4">
+            <p>But yet a video review of the exact sneakers you picked up and put down at the store appears.</p>
+        </div>
+
+        <div class="spacer" style="grid-row: 5;"></div>
+        <div class="spacer" style="grid-row: 10;"></div>
+
+
+        <div class="phrase5">
+            <p>CAREFUL. THIS</p>
+        </div>
+
+        <div class="phrase6">
+            <p>IS CALLED</p>
+        </div>
+
+        <figure class="homeimg">
+            <img src="images/homecamera.png">
+        </figure>
+
+        <h1>SURVEILLANCE CAPITALISM.</h1>
+
+
+
+        <div class="buttonclick">
+            <a href="definition.html" class="button1"><button>Next</button></a>
+        </div>
+    </div>
+
+
+
+    <!--Footer-->
+    <footer>
+        <div class="social">
+
+            <!--Social Media Icons-->
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+
+        </div>
+        <div class="credit"> <small><em>This Website was created as part of a school project. All content and
+                    design are copyright Chloe,
+                    Student, 2025.</em></small> </div>
+    </footer>
+
+    </div>
+
+    <!--Script for the hamburger menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

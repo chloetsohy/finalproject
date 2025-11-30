@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact</title>
+
+    <!--Meta Description for SEO-->
+    <meta name="description" content="Surveillance Capitalism">
+
+    <!--Open graph from social sharing-->
+    <meta property="og:title" content="Surveillance Capitalism">
+    <meta property="og:description" content="Surveillance Capitalism">
+
+    <!--Author and Copyright-->
+    <meta name="author" content="Chloe">
+    <meta name="copyright" content="Chloe, Student Project, 2025">
+
+    <title>Surveillance Capitalism</title>
+
+    <!--External Stylesheet-->
+    <link rel="Stylesheet" href="default.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
+    <!--FONT 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300..700&family=Stack+Sans+Text:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
+    <!--Link to the social media icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<header>
+    <div id="wrapper">
+        <!--Navigation-->
+
+        <nav>
+
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="LOGO" width="100px" height="50px"></a>
+            </div>
+
+            <div class="menu1">
+                <a href="index.html" class="menuI">Home</a>
+                <a href="definition.html" class="menuI">Definition</a>
+                <a href="characteristics.html" class="menuI">Characteristics</a>
+                <a href="manipulation.html" class="menuI">Manipulation</a>
+                <a href="consent.html" class="menuI">Consent</a>
+                <a href="impact.html" class="menuI">Impact</a>
+                <a href="examples.html" class="menuI">Examples</a>
+                <a href="solution.html" class="menuI">Solution</a>
+
+
+            </div>
+
+
+            <!--Hamburger menu button for mobile version-->
+            <div class="hamburger-menu">
+                <button>
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+
+        </nav>
+</header>
+
+<body>
+    <div class="impacttext">
+        <div class="impacttitle">
+            <h1>Impact on Consumers</h1>
+        </div>
+
+
+        <div class="impacttext">
+
+            <figure class="impactpic">
+                <img src="images/impact.jpeg">
+            </figure>
+
+            <div class="impactp">
+                <p>This heavily impacts the consumers in multiple ways. Firstly, its massive data collection is often
+                    overlooked, invisible and going unnoticed to the public eye. This tracking proceeds across us
+                    consumer’s online platforms, locations, interactions etc, economically abusing our human experiences
+                    into materials for profits. This leads to not only lack of privacy, but undermines our loss of
+                    autonomy and free will.
+                </p>
+
+                <p>
+                    This backs up the core ethical issues within surveillance capitalism - violation of essential
+                    rights. This act of breach interferes with both our physical and mental lifestyle, all without our
+                    informed consent or even noticing. Even if we wanted to, it is difficult reporting these issues as
+                    most are third parties companies. Additionally, it spreads into the political side, suggesting how
+                    surveillance capitalists possess immense control over societies and individuals, ultimately linking
+                    back to the concept of manipulation.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section>
+        <article>
+
+        </article>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="social">
+
+            <!--Social Media Icons-->
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+
+        </div>
+        <div class="credit"> <small><em>This Website was created as part of a school project. All content and
+                    design are copyright Chloe,
+                    Student, 2025.</em></small> </div>
+    </footer>
+
+    </div>
+
+    <!--Script for the hamburger menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
